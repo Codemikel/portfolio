@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "aos": "^2.3.4",
+        "sass": "^1.49.9"
+    },
+    "scripts": {
+        "sass": "sass utils/sass/style.scss css/style.css",
+        "sass-watch": "sass --watch utils/sass/style.scss css/style.css"
+    }
+}

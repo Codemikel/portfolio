@@ -1,0 +1,50 @@
+.main{
+    background-image: url('../../../assets/Group 3.png');
+    background-repeat: no-repeat;
+    //background-size: cover;
+    background-position: right bottom;
+    height: 80vh;
+    display: grid;
+    grid-template-areas: 'presentation image';
+    padding: 0 50px 50px;
+    &_presentation{
+        grid-area: presentation;
+        width: 50%;
+        display: grid;
+        align-content: center;
+        gap: 20px;
+        &-title{
+            font-size: 40px;
+            font-family: $first-font;
+            color: $dark-color;
+        }
+        &-text{
+            font-size: 16px;
+            font-family: $first-font;
+            color: $gray-color;
+        }
+        &-button{
+            width: 200px;
+            text-decoration: none;
+            border-radius: 10px;
+            background-color: $first-color;
+            padding: 10px 58px;
+            font-size: 16px;
+            font-family: $first-font;
+            color: $white-color;
+        }
+    }
+    &_image{
+        grid-area: image;
+        display: grid;
+        align-items: end;
+        justify-content: end;
+        background-repeat: no-repeat;
+        &-social{
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
