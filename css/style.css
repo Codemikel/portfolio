@@ -37,9 +37,7 @@ header .menu_list-item-highlight a {
   background-image: url("../../../assets/Group 3.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  height: 80vh;
-  display: grid;
-  grid-template-areas: "presentation image";
+  height: 70vh;
   padding: 0 50px 50px;
 }
 .main_presentation {
@@ -60,7 +58,8 @@ header .menu_list-item-highlight a {
   color: #B2C1C7;
 }
 .main_presentation-button {
-  width: 200px;
+  width: 300px;
+  text-align: center;
   text-decoration: none;
   border-radius: 10px;
   background-color: #126E82;
@@ -70,20 +69,17 @@ header .menu_list-item-highlight a {
   color: #f5f5f5;
 }
 .main_image {
-  grid-area: image;
-  display: grid;
-  align-items: end;
-  justify-content: end;
-  background-repeat: no-repeat;
+  
 }
 .main_image-social {
   display: flex;
-  gap: 30px;
-  flex-direction: column;
-  justify-content: center;
+  gap: 52px;
 }
-
+.main_image-social img{
+  height: 30px;
+}
 .skills {
+  background-color: #126E82;
   padding: 40px 50px;
 }
 .skills_title {
