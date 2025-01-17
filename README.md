@@ -8,7 +8,9 @@ Interactive Interface: A clean, user-friendly interface for seamless navigation.
 
 ## Technologies Used
 Frontend: Vue.js, Inertia.js
+
 Backend: Laravel 11, MySQL
+
 Other Tools: Pusher for real-time features, ReportLab for PDF generation
 
 # About Me
